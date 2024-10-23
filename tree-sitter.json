@@ -1,0 +1,33 @@
+{
+  "grammars": [
+    {
+      "name": "blade",
+      "camelcase": "Blade",
+      "scope": "source.blade",
+      "path": ".",
+      "file-types": null,
+      "injection-regex": "^blade$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "a tree-sitter parser for the blade templating language",
+    "authors": [
+      {
+        "name": "Joshua Kellogg"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jkellogg01/tree-sitter-blade"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
